@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5001/api', // Твій порт бекенду
+  baseURL: 'https://algo-visualizer-nkc1.onrender.com', // Твій порт бекенду
 });
 
 // Додаємо інтерцептор, який прикріплює токен до КОЖНОГО запиту
